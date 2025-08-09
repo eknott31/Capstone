@@ -1,0 +1,19 @@
+
+    body {
+        background: linear-gradient(135deg, #0d47a1 0%, #00c853 50%, #8e24aa 100%);
+        background-color: blue;
+    }
+
+    h1, h2, p, ul, li {
+        text-shadow: 2px 2px 8px #000, 0 0 2px #fff;
+        font-weight: bold;
+    }
+
+    .corner-image {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        width: 100px;
+        height: auto;
+        z-index: 1000;
+    }
