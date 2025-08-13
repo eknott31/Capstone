@@ -5,21 +5,55 @@
     <title>My Web Page</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffe066 0%, #ffb347 40%, #87ceeb 100%);
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-blend-mode: lighten;
+        }
+        body.siren {
+            animation: siren-flash 0.3s alternate 10;
+        }
+        @keyframes siren-flash {
+            0% { background: #ff0000; }
+            100% { background: #fff; }
+        }
+        h1, h2 {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 0 0 12px #fff, 0 0 6px #2196f3, 2px 2px 10px #000;
+        }
+        p, ul, li {
+            font-size: 1.4em;
+            font-weight: bold;
+            text-shadow: 0 0 8px #fff, 0 0 2px #2196f3, 2px 2px 8px #000;
+        }
+        .box {
+            font-size: 1.4em;
+            font-weight: bold;
+            text-shadow: 0 0 8px #fff, 0 0 2px #2196f3, 2px 2px 8px #000;
+        }
+    </style>
 </head>
 
 <body>
     <img src="https://cdn-icons-png.flaticon.com/512/84/84380.png" alt="Computer" class="corner-image" />
-    <h1 style="color: white;">BigEsonn Team C World</h1>
+    <h1 style="color: white;">BigEsonn Team Knott World</h1>
     <p style="color: white; font-size: 1.2em;">Today we are learning about how Cloud works</p>
 
     <section style="background: rgba(255,255,255,0.1); margin: 20px; padding: 20px; border-radius: 10px;">
-        <h2 style="color: white;">Introduction</h2>
-        <p style="color: white;">Welcome to our page about Cloud technology! We are CLOUD 9!!</p>
+        <h2 style="color: rgb(5, 0, 0);">WHO WILL YOU BE?</h2>
+    <p style="color: rgb(17, 1, 77);">CLOUD TECHNOLOGY! WE ARE CLOUD 9!!</p>
     </section>
+    <div class="box-container">
+    <a href="page1.html" class="box">Page 1</a>
+    <a href="page3.html" class="box">Page 3</a>
+    </div>
     <section style="background: rgba(255,255,255,0.1); margin: 20px; padding: 20px; border-radius: 10px;">
         <h2 style="color: white;"> </h2>
     <p style="color: rgb(10, 1, 1); font-size: 1.5em;">What we have to teach you here is the important key factors of knowing how to be the best at what you do Mastering your skills!</p>
-        <p style="color: white;">We here at Cloud 9 pride ourselves on helping </p>
+    <p style="color: rgb(20, 1, 1);">At Cloud 9, we believe in growth, expect greatness, achieve excellence, and solve challenges others can't.</p>
     </section>
     <section style="background: rgba(255,255,255,0.1); margin: 20px; padding: 20px; border-radius: 10px;">
         <h2 style="color: rgb(230, 13, 13);">Benefits</h2>

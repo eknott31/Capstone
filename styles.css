@@ -17,3 +17,31 @@
         height: auto;
         z-index: 1000;
     }
+    /* Box container and box styles */
+    .box-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 30px 0;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 100px;
+        background: rgba(255,255,255,0.2);
+        color: #222;
+        font-size: 1.3em;
+        border-radius: 12px;
+        text-decoration: none;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        transition: background 0.2s, color 0.2s, transform 0.2s;
+    }
+
+    .box:hover {
+        background: #fff;
+        color: #0078d7;
+        transform: scale(1.05);
+    }
